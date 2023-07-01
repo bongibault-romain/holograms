@@ -1,5 +1,11 @@
-name: holograms
+name: Holograms
 version: '${project.version}'
 main: lt.bongibau.holograms.HologramsPlugin
 api-version: '1.20'
 load: POSTWORLD
+depend:
+  - ProtocolLib
+softdepend:
+  - PlaceholderAPI
+commands:
+  holograms: {}
